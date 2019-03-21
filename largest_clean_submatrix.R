@@ -28,8 +28,8 @@ largest_clean_submatrix <- function(A) {
   c = get_solution(result, c[j])[['value']]
   print(result)
   cat("\ninitial size: ", m, "x", n, "\n")
-  cat(c("delete rows: ", r,"\n"))
-  cat(c("delete columns: ", c,"\n"))
+  cat(c("deleted rows: ", r,"\n"))
+  cat(c("deleted columns: ", c,"\n"))
   cat("final size: ", nrow(A[!r,!c]), "x", ncol(A[!r,!c]), "\n")
   return(A[!r,!c])
 }

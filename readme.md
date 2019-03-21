@@ -25,8 +25,8 @@ In the context of data cleaning, it may be used to remove from a dataset the NA 
 Status: optimal
 Objective value: 44
 initial size:  10 x 10 
-delete rows:  0 0 0 0 0 1 0 0 1 0 
-delete columns:  0 0 1 1 1 0 0 0 0 0 
+deleted rows:  0 0 0 0 0 1 0 0 1 0 
+deleted columns:  0 0 1 1 1 0 0 0 0 0 
 final size:  8 x 7 
      [,1] [,2] [,3] [,4] [,5] [,6] [,7]
 [1,]    1    1    1    1    1    1    1
